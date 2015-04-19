@@ -8,4 +8,4 @@ Sugessions are always welcome.
 
 # Developer:
 Qaidjohar Jawadwala
-email: qaidjawadwala[at]gmail[dot]com
+Email: qaidjawadwala[at]gmail[dot]com
