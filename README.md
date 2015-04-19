@@ -1,11 +1,11 @@
 # configuremyDHCP
-This python script takes certaing necessary inputs require to configure the DHCP server configuration files.
+This python script takes certain necessary inputs required to configure the DHCP server configuration files.
 It then asks for the interfaces on which the DHCP server is to be configured.
-Once done, if all the inputs provided are correct, then it will start the DHCP server.
+Once done, if all the inputs provided are correct, then it will configure start the DHCP server.
 
-Developers always have an open invitation for contributing to improve the code.
-Sugessions are always welcomed.
+Developers always have an open invitation for contributing towards improvement of the code.
+Sugessions are always welcome.
 
-Developer:
+# Developer:
 Qaidjohar Jawadwala
 email: qaidjawadwala[at]gmail[dot]com
