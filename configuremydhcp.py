@@ -4,19 +4,6 @@ import netifaces #get access to the list of the network interfaces available on 
 import re #to perform Regular Expression operations.
 import sys #manage commandline arguments passes to the program
 
-# Console colors
-W  = '\033[0m'  # default
-R  = '\033[31m' # red
-G  = '\033[32m' # green
-O  = '\033[33m' # orange
-B  = '\033[34m' # blue
-P  = '\033[35m' # purple
-C  = '\033[36m' # cyan
-GR = '\033[37m' # gray
-T  = '\033[93m' # tan
-BGR = '\033[1;37m' #Purple+Bold
-BT  = '\033[1;93m' # tan+Bold
-
 def splitIP( ipStr):
 
     l = re.split('(.*)\.(.*)\.(.*)\.(.*)', ipStr)
@@ -188,7 +175,7 @@ if __name__ == "__main__":
 				
 	#Writing Details into configuration File
 			
-	conf_file = open("/etc/dhcp/dhcpd.conf1", "w")	
+	conf_file = open("/etc/dhcp/dhcpd.conf", "w")	
 	conf_file.write("ddns-update-style interim;\n")
 	conf_file.write("authoritative;\n")
 	conf_file.write("default-lease-time "+str(default_lease_time)+";\n")
