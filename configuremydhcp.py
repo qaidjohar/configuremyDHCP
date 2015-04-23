@@ -4,6 +4,11 @@ import netifaces #get access to the list of the network interfaces available on 
 import re #to perform Regular Expression operations.
 import sys #manage commandline arguments passes to the program
 
+# Console colors
+W  = '\033[0m'  # default
+R  = '\033[31m' # red
+
+
 def splitIP( ipStr):
 
     l = re.split('(.*)\.(.*)\.(.*)\.(.*)', ipStr)
